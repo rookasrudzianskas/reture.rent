@@ -61,7 +61,8 @@
     margin-top: 125px;
     font-size: 55px;
     /*margin-bottom: 100px;*/
-    color: rgb(16, 103, 59);
+    color: whitesmoke;
+    /*color: rgb(16, 103, 59);*/
     max-width: 800px;
     text-align: center;
 }
@@ -72,7 +73,7 @@
     margin-top: 10px;
     max-width: 800px;
     text-align: center;
-    color: rgb(16, 103, 59);
+    color: whitesmoke;
     margin-bottom: 30px;
     display: flex;
     align-items: center;

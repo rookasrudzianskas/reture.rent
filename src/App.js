@@ -3,9 +3,27 @@ import './App.css';
 import HomeScreen from "./screens/HomeScreen/HomeScreen";
 
 function App() {
-  return (
+
+
+
+
+
+    return (
     <div className="app">
-      <HomeScreen />
+        <div class="container-fluid">
+            <div class="background">
+        <HomeScreen />
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+
+
+            </div>
+        </div>
+
+
     </div>
   );
 }
