@@ -1,0 +1,35 @@
+.trustedBy {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    justify-content: center;
+
+}
+
+.trustedBy__text {
+    color: whitesmoke;
+}
+
+.trustedBy__images {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    /*width: 800px;*/
+}
+
+.trustedBy__images > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 120px;
+}
