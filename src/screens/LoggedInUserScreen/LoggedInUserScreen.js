@@ -5,6 +5,7 @@ import LoginScreen from "../LoginScreen/LoginScreen";
 import SignUp from "../../components/SignUp";
 import HomeScreen from "../HomeScreen/HomeScreen";
 import Dashboard from "./Dashboard/Dashboard";
+import SearchDates from "../../components/SearchDates";
 
 const LoggedInUserScreen = () => {
     return (
