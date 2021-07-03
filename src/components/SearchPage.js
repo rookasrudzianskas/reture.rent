@@ -2,12 +2,20 @@ import React from "react";
 import "./styles/SearchPage.css";
 import {Button} from "@material-ui/core";
 import SearchResult from "./SearchResult";
+import {useHistory} from "react-router-dom";
 
 
 const SearchPage = () => {
+
+    const history = useHistory();
+
+    const goHome = () => {
+        history.push("/logged-in/dashboard");
+    }
     return (
         <div className="searchPage">
             <div className="searchPage__info">
+                <Button variant="outlined" onClick={goHome}>Back to the renture home 🏠</Button>
                 <p>62 stays · 03 august to 03 July · 1 guest</p>
                 <h1>Stays nearby Vilnius Country</h1>
                 <Button variant="outlined">Cancellation Flexibility</Button>
