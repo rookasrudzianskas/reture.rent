@@ -7,6 +7,7 @@ import PMS from "../../components/PMS";
 import RentureApp from "../../components/RentureApp";
 import RentureOS from "../../components/RentureOS";
 import Home from "../../components/Home";
+import Footer from "../../components/Footer";
 
 const HomeScreen = () => {
     return (
@@ -19,6 +20,7 @@ const HomeScreen = () => {
             <RentureApp />
             <RentureOS />
             <Home />
+            <Footer />
         </div>
     );
 };
