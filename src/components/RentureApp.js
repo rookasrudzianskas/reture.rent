@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/RentureApp.css";
+import {Link} from "react-router-dom";
 
 
 const PMS = () => {
@@ -31,9 +32,12 @@ const PMS = () => {
 
                     </ul>
 
+                    <Link style={{textDecoration: 'none'}}  to="/login">
+
                     <div className="cta">
                         Join now
                     </div>
+                    </Link>
                 </div>
 
             </div>

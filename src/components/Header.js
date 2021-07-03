@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import "./styles/Header.css";
+import {Link} from "react-router-dom";
 
 const Header = () => {
 
@@ -44,13 +45,18 @@ const Header = () => {
                 <div className="header__rightNav">
 
 
-                    <div className="header__signIn">
-                        Join Now
-                    </div>
+                    <Link style={{textDecoration: 'none'}}  to="/login">
+                        <div className="header__signIn">
+                            Join Now
+                        </div>
+                    </Link>
 
+                    <Link style={{textDecoration: 'none'}} to="/login">
                     <div className="header__joinNow">
-                        Book a Demo
+                        Book a Demo (Coming Soon)
                     </div>
+                    </Link>
+
 
 
                 </div>

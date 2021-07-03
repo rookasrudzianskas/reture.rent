@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/PMS.css";
+import {Link} from "react-router-dom";
 
 
 const PMS = () => {
@@ -23,9 +24,12 @@ const PMS = () => {
                     </div>
                     <h3>Join now to start earning Rewards.*</h3>
 
+                    <Link style={{textDecoration: 'none'}}  to="/login">
+
                     <div className="cta">
                         Join now
                     </div>
+                    </Link>
                 </div>
 
             </div>

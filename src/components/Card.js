@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles/Card.css";
+import {Link} from "react-router-dom";
 
 const Card = ({ src, title, description, price}) => {
     return (
         <div className="something">
-        <div className="card">
+            <Link style={{textDecoration: 'none'}}  to="/login">
+
+            <div className="card">
             <img src={src} alt=""/>
             <div className="card__info">
 
@@ -17,6 +20,7 @@ const Card = ({ src, title, description, price}) => {
 
             </div>
         </div>
+            </Link>
         </div>
     )
 }

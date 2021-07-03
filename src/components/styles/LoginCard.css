@@ -65,6 +65,7 @@
 .smaller__width {
     width: 500px;
     display: flex;
+    flex-direction: row;
 }
 
 .smaller__width > .Mui-focused {
