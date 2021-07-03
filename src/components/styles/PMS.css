@@ -16,7 +16,7 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0px 20px 20px 0px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: #1e3932;
     /*padding: 32px 48px;*/
 }
@@ -25,6 +25,13 @@
     width: 50%;
     display: flex;
 
+}
+
+.PMS__howItWorks {
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    color: whitesmoke;
 }
 
 .PMS__image__real {
@@ -56,7 +63,7 @@
 .PMS__text h3 {
     margin-bottom: 32px;
     font-size: 19px;
-    text-align: center;
+    text-align: right;
 }
 
 .cta {
