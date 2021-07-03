@@ -1,0 +1,17 @@
+.home {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.home > h1 {
+    margin-left: 40px;
+    color: white;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.home__section {
+    display: flex;
+    padding: 30px;
+}
