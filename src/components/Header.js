@@ -42,6 +42,10 @@ const Header = () => {
         history.push("/whyRenture");
     }
 
+    const gotoAboutUS = () => {
+        history.push("/developers/rokas_gabriel");
+    }
+
     return (
         <div className={`header ${show && 'header__white'}`}>
             <div className="header__container">
@@ -50,7 +54,7 @@ const Header = () => {
                         <ul>
                             <li onClick={goRenture}>Why renture?</li>
                             <li>Products</li>
-                            <li>About Us</li>
+                            <li onClick={gotoAboutUS}>About Us</li>
                         </ul>
                     </div>
 
