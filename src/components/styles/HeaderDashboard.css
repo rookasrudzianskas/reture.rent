@@ -1,4 +1,4 @@
-.header {
+.header2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,13 +14,13 @@
     padding: 20px;
 }
 
-.header__icon {
+.header2__icon {
     object-fit: contain;
     height: 100px;
     margin-left: 20px;
 }
 
-.header__center {
+.header2__center {
     display: flex;
     flex: 1;
     align-items: center;
@@ -32,7 +32,7 @@
     width: 100%;
 }
 
-.header__center > input {
+.header2__center > input {
     border: none;
     padding: 10px;
     outline-width: 0;
@@ -42,7 +42,7 @@
 
 }
 
-.header__right {
+.header2__right {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@
     margin-right: 80px;
 }
 
-.button {
+.button2 {
     text-decoration: none;
     border: none;
     background-color: white;

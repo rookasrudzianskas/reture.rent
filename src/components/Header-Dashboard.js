@@ -6,23 +6,23 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Avatar } from "@material-ui/core";
 import {Link} from "react-router-dom";
 import BannerClick from "./BannerClick";
-
+//
 const HeaderDashboard = () => {
     return (
         // Header component
 
-        <div className="header">
+        <div className="header2">
 
             {/* THe section left lohgo*/}
             <Link to="/">
-                <img src="/images/logo.png" className="header__icon" alt=""/>
+                <img src="/images/logo.png" className="header2__icon" alt=""/>
             </Link>
 
             {/*endof logo*/}
 
             {/* the center section of header    */}
 
-            <div className="header__center">
+            <div className="header2__center">
                 <input type="text"/>
                 <SearchIcon />
             </div>
@@ -31,8 +31,8 @@ const HeaderDashboard = () => {
 
             {/* the section right   */}
 
-            <div className="header__right">
-                <BannerClick className="button"/>
+            <div className="header2__right">
+                <BannerClick className="button2"/>
                 <p>Become a host</p>
                 <LanguageIcon />
                 <ExpandMoreIcon />
