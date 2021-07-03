@@ -14,10 +14,14 @@ const PMS = () => {
                 </div>
                 <div className="PMS__text">
                     <p className="PMS__howItWorks">HOW IT WORKS</p>
-                    <h1 className="PMS__howToUnify">Unify your PMS and service provider partners</h1>
-                    <h3>Join now to start earning Rewards.*</h3>
+                    <div className="smaller__width">
+                        <h1 className="PMS__howToUnify">Unify your PMS and service provider partners</h1>
+                    </div>
 
-                    <p className="PMS__description">Unify your PMS and service provider partners within a seamless tenant engagement platform, and wave goodbye to paper and email workflows.</p>
+                    <div className="smaller__width">
+                        <p className="PMS__description">Unify your PMS and service provider partners within a seamless tenant engagement platform, and wave goodbye to paper and email workflows.</p>
+                    </div>
+                    <h3>Join now to start earning Rewards.*</h3>
 
                     <div className="cta">
                         Join now
