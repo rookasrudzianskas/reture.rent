@@ -37,7 +37,7 @@ const LoginCard = () => {
                             <TextField size="small"  id="outlined-basic" label="Password" variant="outlined" />
                         {/*</div>*/}
                     </div>
-                    <h3>Not a user yet? Sign Up!</h3>
+                    <h3>Not a user yet? <Link to="/signup" style={{textDecoration: "none"}}> Sign Up!</Link></h3>
 
                     <div className="cta">
                         Join now

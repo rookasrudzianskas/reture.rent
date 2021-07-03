@@ -1,6 +1,7 @@
 import React from 'react';
 import "./styles/SignUpCard.css";
 import {TextField} from "@material-ui/core";
+import {Link} from "react-router-dom";
 
 
 const LoginCard = () => {
@@ -36,7 +37,7 @@ const LoginCard = () => {
                         <button class="signUpBTN a4">Sign Up With Apple</button>
 
                     </div>
-                    <h3>A user already? Login!</h3>
+                    <h3>A user already? <Link to="/login" style={{textDecoration: "none"}}> Login!</Link></h3>
 
                     <div className="cta">
                         Join now
