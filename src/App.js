@@ -15,10 +15,16 @@ import Dashboard from "./screens/LoggedInUserScreen/Dashboard/Dashboard";
 import SignInCard from "./components/SignInCard";
 import SignIn from "./components/SignIn";
 import SearchResultScreen from "./screens/SearchResultScreen/SearchResultScreen";
+import {useDispatch, useSelector} from "react-redux";
+import {selectUserEmail, selectUserName, selectUserPhoto} from "./features/userSlice";
+import WhyRenture from "./components/WhyRenture";
 
 function App() {
 
-
+    const dispatch = useDispatch();
+    const userName = useSelector(selectUserName);
+    const userEmail = useSelector(selectUserEmail);
+    const userPhoto = useSelector(selectUserPhoto);
 
 
 
@@ -45,12 +51,24 @@ function App() {
                             <SignUp />
                         </Route>
 
+                        <Route path="/whyRenture">
+                            <WhyRenture />
+                        </Route>
+
                         <Route path="/search_results">
-                            <SearchResultScreen />
+                            {userName ? (
+                                <SearchResultScreen />
+                                ) : (
+                                    <SignIn />
+                                ) }
                         </Route>
 
                         <Route path="/logged-in/dashboard">
+                            {userName ? (
                             <Dashboard />
+                            ) : (
+                                <SignIn />
+                            )}
                         </Route>
 
                         <Route path="/">

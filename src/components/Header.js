@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import "./styles/Header.css";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {selectUserEmail, selectUserName, selectUserPhoto, setUserLogOutState} from "../features/userSlice";
 import {auth} from "../firebase";
@@ -15,6 +15,7 @@ const Header = () => {
 
 
     const [show, handleShow] = useState(false);
+    const history = useHistory();
 
     const transitionNavBar = () => {
         if(window.scrollY > 100) {
@@ -37,13 +38,17 @@ const Header = () => {
         }).catch((err) => alert(err.message));
     }
 
+    const goRenture = () => {
+        history.push("/whyRenture");
+    }
+
     return (
         <div className={`header ${show && 'header__white'}`}>
             <div className="header__container">
                 <div className="header__leftNav">
                     <div className="header__nav">
                         <ul>
-                            <li>Why renture?</li>
+                            <li onClick={goRenture}>Why renture?</li>
                             <li>Products</li>
                             <li>About Us</li>
                         </ul>
