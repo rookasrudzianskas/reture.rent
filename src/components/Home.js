@@ -34,6 +34,9 @@ function Home() {
 
             {/* cards the first 3 rows to make the homes  */}
 
+
+            <h1>Maybe something in your country?</h1>
+
             <div className='home__section'>
                 <Card
                     src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
