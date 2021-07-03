@@ -4,6 +4,7 @@ import HomeShit from "../../components/HomeShit";
 import BodyImage from "../../components/BodyImage";
 import TrustedBy from "../../components/TrustedBy";
 import PMS from "../../components/PMS";
+import RentureApp from "../../components/RentureApp";
 
 const HomeScreen = () => {
     return (
@@ -13,6 +14,7 @@ const HomeScreen = () => {
             <BodyImage />
             <TrustedBy />
             <PMS />
+            <RentureApp />
         </div>
     );
 };

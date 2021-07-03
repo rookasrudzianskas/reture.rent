@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles/PMS.css";
+import "./styles/RentureApp.css";
 
 
 const PMS = () => {
@@ -9,19 +9,27 @@ const PMS = () => {
             <div className="PMS__leftRight__section">
                 <div className="PMS__image">
                     <div className="PMS__image__real">
-                        <img src="/images/how-it-works-illustration.png" alt=""/>
+                        <img src="/images/phoneapps.png" alt=""/>
                     </div>
                 </div>
                 <div className="PMS__text">
-                    <p className="PMS__howItWorks">HOW IT WORKS</p>
+                    <p className="PMS__howItWorks">RENTURE APP</p>
                     <div className="smaller__width">
-                        <h1 className="PMS__howToUnify">Unify your PMS and service provider partners</h1>
+                        <h1 className="PMS__howToUnify">Friction-free
+                            renting, at last.</h1>
                     </div>
 
                     <div className="smaller__width">
-                        <p className="PMS__description">Unify your PMS and service provider partners within a seamless tenant engagement platform, and wave goodbye to paper and email workflows.</p>
+                        <p className="PMS__description">Take the hassle out of renting with the slick and intuitive mobile-friendly tools that tenants expect.</p>
                     </div>
-                    <h3>Join now to start earning Rewards.*</h3>
+                    <ul className="smaller__widthandheight">
+                        <li className="li__elements">Apply in minutes</li>
+                        <li className="li__elements">Track application status</li>
+                        <li className="li__elements">Sign digitally</li>
+                        <li className="li__elements">Pay securely online</li>
+                        <li className="li__elements">Discover additional services</li>
+
+                    </ul>
 
                     <div className="cta">
                         Join now
