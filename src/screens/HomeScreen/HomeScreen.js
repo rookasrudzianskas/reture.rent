@@ -5,6 +5,8 @@ import BodyImage from "../../components/BodyImage";
 import TrustedBy from "../../components/TrustedBy";
 import PMS from "../../components/PMS";
 import RentureApp from "../../components/RentureApp";
+import RentureOS from "../../components/RentureOS";
+import Home from "../../components/Home";
 
 const HomeScreen = () => {
     return (
@@ -15,6 +17,8 @@ const HomeScreen = () => {
             <TrustedBy />
             <PMS />
             <RentureApp />
+            <RentureOS />
+            <Home />
         </div>
     );
 };
