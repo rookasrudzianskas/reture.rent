@@ -3,6 +3,7 @@ import "./styles/Card.css";
 
 const Card = ({ src, title, description, price}) => {
     return (
+        <div className="something">
         <div className="card">
             <img src={src} alt=""/>
             <div className="card__info">
@@ -15,6 +16,7 @@ const Card = ({ src, title, description, price}) => {
                 {/*    end of card one  */}
 
             </div>
+        </div>
         </div>
     )
 }
