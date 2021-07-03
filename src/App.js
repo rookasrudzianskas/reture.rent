@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import AboutScreen from "./screens/AboutScreen/AboutScreen";
 import LoginScreen from "./screens/LoginScreen/LoginScreen";
+import SignUpCard from "./components/SignUpCard";
+import SignUp from "./components/SignUp";
 
 function App() {
 
@@ -29,6 +31,10 @@ function App() {
 
                         <Route path="/login">
                             <LoginScreen />
+                        </Route>
+
+                        <Route path="/signup">
+                            <SignUp />
                         </Route>
 
                         <Route path="/">
