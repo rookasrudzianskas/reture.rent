@@ -1,0 +1,120 @@
+.header {
+    height: 101px;
+    -webkit-box-shadow: 0px 0px 13px -8px #000000;
+    box-shadow: 0px 0px 13px -8px #000000;
+    z-index: 10;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.header__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.header__logo >  img {
+    height: 100%;
+}
+
+.header__leftNav {
+    display:  flex;
+    height: 100%;
+    align-items: center;
+    /*flex:  1;*/
+}
+
+.header__nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header__leftNav ul li {
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #3A3A3C;
+}
+
+.header__leftNav ul li:hover {
+    color: #10673B;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.header__rightNav {
+    display: flex;
+    align-items: center;
+}
+
+
+.header__signIn {
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.2;
+    background-color: white;
+    color: black;
+    padding: 10px 26px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.header__joinNow {
+    background-color: black;
+    color: white;
+    padding: 10px 26px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.header__joinNow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.25s;
+}
+
+.header__signIn {
+    margin-right: 16px;
+}
+
+.header__signIn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.25s;
+}
+
+
+.header__findStore {
+    margin-right: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #3A3A3C;
+}
+
+.header__findStore:hover {
+    color: #10673B;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.header__locationIcon > .MuiSvgIcon-root {
+    padding-right: 8px !important;
+    font-size: 24px !important;
+}

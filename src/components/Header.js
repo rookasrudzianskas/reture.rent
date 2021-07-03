@@ -7,16 +7,19 @@ const Header = () => {
         <div className="header">
             <div className="header__container">
                 <div className="header__leftNav">
-                    <div className="header__logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt=""/>
-                    </div>
-
                     <div className="header__nav">
                         <ul>
-                            <li>Menu</li>
-                            <li>Rewards</li>
-                            <li>Gift Cards</li>
+                            <li>Why renture?</li>
+                            <li>Products</li>
+                            <li>About Us</li>
                         </ul>
+                    </div>
+
+                </div>
+
+                <div className="header__center">
+                    <div className="header__logo">
+                        <img src="images/logo.png" alt=""/>
                     </div>
                 </div>
 
@@ -24,15 +27,15 @@ const Header = () => {
 
                     <div className="header__findStore">
                         <LocationOnIcon className="header__locationIcon" />
-                        <span>Find a store</span>
+                        <span>Find partners</span>
                     </div>
 
                     <div className="header__signIn">
-                        Sign In
+                        Join Now
                     </div>
 
                     <div className="header__joinNow">
-                        Join now
+                        Book a Demo
                     </div>
 
 
