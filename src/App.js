@@ -18,6 +18,7 @@ import SearchResultScreen from "./screens/SearchResultScreen/SearchResultScreen"
 import {useDispatch, useSelector} from "react-redux";
 import {selectUserEmail, selectUserName, selectUserPhoto} from "./features/userSlice";
 import WhyRenture from "./components/WhyRenture";
+import ProudScreen from "./components/ProudScreen";
 
 function App() {
 
@@ -37,6 +38,10 @@ function App() {
 
                         <Route path="/about">
                             <AboutScreen />
+                        </Route>
+
+                        <Route path="/developers/rokas_gabriel">
+                            <ProudScreen />
                         </Route>
 
                         <Route path="/login">
