@@ -4,10 +4,11 @@
     max-width: 1440px;
     margin: 0 auto;
     z-index: -1;
+
 }
 .whyRenture__margin {
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .whyRenture__text {

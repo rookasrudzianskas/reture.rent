@@ -1,28 +1,36 @@
 import React from 'react';
 import "./styles/WhyRenture.css";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 
 
 const WhyRenture = () => {
+
+    const history = useHistory();
+
+    const goHome = () => {
+        history.push("/");
+    }
     return (
         <div className="whyRenture">
             <div className="whyRenture__margin">
             <div className="whyRenture__leftRight__section">
                 <div className="whyRenture__image">
                     <div className="whyRenture__image__real">
-                        <img src="/images/how-it-works-illustration.png" alt=""/>
+                        <img onClick={goHome} src="/images/how-it-works-illustration.png" alt=""/>
                     </div>
                 </div>
                 <div className="whyRenture__text">
-                    <p className="whyRenture__howItWorks">HOW IT WORKS</p>
+                    <p className="whyRenture__howItWorks">Why Renture</p>
                     <div className="whyRenturesmaller__width">
-                        <h1 className="whyRenture__howToUnify">Unify your PMS and service provider partners</h1>
+                        <h1 className="whyRenture__howToUnify">The Renture tenant engagement platform
+                        </h1>
                     </div>
 
                     <div className = "whyRenturesmaller__width">
-                        <p className="whyRenture__description">Unify your PMS and service provider partners within a seamless tenant engagement platform, and wave goodbye to paper and email workflows.</p>
+                        <p className="whyRenture__description">Plug Renture into your current workflow to digitize and connect your communications, services and partnerships, creating a fully-digital and personalized tenant experience.</p>
                     </div>
-                    <h3>Join now to start earning Rewards.*</h3>
+                    <h3>Ready to digitize
+                        your tenant experience?</h3>
 
                     <Link style={{textDecoration: 'none'}}  to="/login">
 
