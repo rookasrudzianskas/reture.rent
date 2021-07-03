@@ -10,7 +10,7 @@ const HomeShit = () => {
                     <p>Digitize and accelerate lettings with our tenant engagement platform
                     </p>
 
-                    <h3>Halo plugs into your property management system to drive fully-digital, transparent and friction-free tenant engagement, through the entire lettings lifecycle.</h3>
+                    <h3>Renture plugs into your property management system to drive fully-digital, transparent and friction-free tenant engagement, through the entire lettings lifecycle.</h3>
                 </div>
             </div>
             <div className="banner">

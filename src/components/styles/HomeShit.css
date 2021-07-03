@@ -67,10 +67,12 @@
 }
 
 .empty__something > h3:last-child {
-    font-weight: 700;
-    margin-top: 20px;
-    max-width: 700px;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 10px;
+    max-width: 800px;
     text-align: center;
+    color: rgb(16, 103, 59);
     margin-bottom: 30px;
     display: flex;
     align-items: center;
