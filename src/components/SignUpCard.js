@@ -2,7 +2,7 @@ import React from 'react';
 import "./styles/SignUpCard.css";
 import {TextField} from "@material-ui/core";
 import {Link, useHistory} from "react-router-dom";
-import {auth, provider} from "../../firebase";
+import {auth, provider} from "../firebase";
 import {selectUserEmail, selectUserName, setActiveUser} from "../features/userSlice";
 import {useDispatch, useSelector} from "react-redux";
 
@@ -25,7 +25,10 @@ const SignUpCard = () => {
             dispatch(setActiveUser({
                 username: result.user.displayName,
                 userEmail: result.user.email,
+                userPhoto: result.user.photoURL,
             }))
+
+            history.push("/logged-in/dashboard");
         })
     }
 
