@@ -8,15 +8,14 @@
     display: flex;
     flex-direction: row;
     max-width: 1400px;
-    width: 1400px;
-    height: 1000px;
+    width: 1000px;
+    height: 700px;
     margin-top: 65px;
+
 
 }
 
 .bodyImage__image > img {
     flex: 0.60;
-    margin-left: 60px;
-
-
+    margin-left: 290px;
 }

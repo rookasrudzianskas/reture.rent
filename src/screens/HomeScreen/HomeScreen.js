@@ -9,6 +9,25 @@ const HomeScreen = () => {
             <Header />
             <HomeShit />
             <BodyImage />
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
+            <h1>SOmething</h1>
         </div>
     );
 };
