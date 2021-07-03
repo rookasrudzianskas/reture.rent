@@ -19,6 +19,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {selectUserEmail, selectUserName, selectUserPhoto} from "./features/userSlice";
 import WhyRenture from "./components/WhyRenture";
 import ProudScreen from "./components/ProudScreen";
+import WhyRentureScreen from "./components/WhyRentureScreen";
 
 function App() {
 
@@ -57,7 +58,7 @@ function App() {
                         </Route>
 
                         <Route path="/whyRenture">
-                            <WhyRenture />
+                            <WhyRentureScreen />
                         </Route>
 
                         <Route path="/search_results">

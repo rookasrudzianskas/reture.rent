@@ -8,10 +8,10 @@ const HomeShit = () => {
         <div className="homeShit">
             <div className="empty">
                 <div className="empty__something">
-                    <p>Digitize and accelerate lettings with our tenant engagement platform
+                    <p>Simplify and accelerate your property renting process or book one by yourself!
                     </p>
 
-                        <h3 className="empty__h3">Renture plugs into your property management system to drive fully-digital, transparent and friction-free tenant engagement, through the entire lettings lifecycle.</h3>
+                        <h3 className="empty__h3">Renture plugs into your property management system to drive fully-digital, transparent and friction-free tenant engagement, through the entire rental lifecycle.</h3>
 
                     <div className="empty__button">
                         <Link style={{textDecoration: 'none'}}  to="/login">

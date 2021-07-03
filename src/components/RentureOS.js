@@ -20,7 +20,7 @@ const PMS = () => {
                     </div>
 
                     <div className="smaller__width">
-                        <p className="RentureOS__description">Add the RentureOS tenant engagement platform to your current PMS to eliminate admin, close deals faster and empower tenants to take ownership of their lettings experience.</p>
+                        <p className="RentureOS__description">Add the RentureOS tenant engagement platform to your current workflow to eliminate admin, close deals faster and empower tenants to take ownership of their lettings experience.</p>
                     </div>
                     <ul className="smaller__widthandheight">
                         <li className="li__elements">Real-time reference status</li>

@@ -16,7 +16,7 @@ const PMS = () => {
                 <div className="PMS__text">
                     <p className="PMS__howItWorks">HOW IT WORKS</p>
                     <div className="smaller__width">
-                        <h1 className="PMS__howToUnify">Unify your PMS and service provider partners</h1>
+                        <h1 className="PMS__howToUnify">Unify your workflow and service provider partners</h1>
                     </div>
 
                     <div className="smaller__width">
