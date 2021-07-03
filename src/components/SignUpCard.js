@@ -33,19 +33,51 @@ const SignUpCard = () => {
     }
 
     const withFacebook = () => {
+        auth.signInWithPopup(provider).then((result) => {
+            dispatch(setActiveUser({
+                username: result.user.displayName,
+                userEmail: result.user.email,
+                userPhoto: result.user.photoURL,
+            }))
 
+            history.push("/logged-in/dashboard");
+        })
     }
 
     const withConnexious = () => {
+        auth.signInWithPopup(provider).then((result) => {
+            dispatch(setActiveUser({
+                username: result.user.displayName,
+                userEmail: result.user.email,
+                userPhoto: result.user.photoURL,
+            }))
 
+            history.push("/logged-in/dashboard");
+        })
     }
 
     const withBrainlyemails = () => {
+        auth.signInWithPopup(provider).then((result) => {
+            dispatch(setActiveUser({
+                username: result.user.displayName,
+                userEmail: result.user.email,
+                userPhoto: result.user.photoURL,
+            }))
 
+            history.push("/logged-in/dashboard");
+        })
     }
 
     const withApple = () => {
+        auth.signInWithPopup(provider).then((result) => {
+            dispatch(setActiveUser({
+                username: result.user.displayName,
+                userEmail: result.user.email,
+                userPhoto: result.user.photoURL,
+            }))
 
+            history.push("/logged-in/dashboard");
+        })
     }
 
     return (
