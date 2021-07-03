@@ -5,6 +5,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Avatar } from "@material-ui/core";
 import {Link} from "react-router-dom";
+import BannerClick from "./BannerClick";
 
 const HeaderDashboard = () => {
     return (
@@ -31,11 +32,14 @@ const HeaderDashboard = () => {
             {/* the section right   */}
 
             <div className="header__right">
+                <BannerClick className="button"/>
                 <p>Become a host</p>
                 <LanguageIcon />
                 <ExpandMoreIcon />
                 <Avatar />
             </div>
+
+
 
             {/*    the end of the section right     */}
         </div>

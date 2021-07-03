@@ -14,7 +14,6 @@
     padding: 20px;
 }
 
-
 .header__icon {
     object-fit: contain;
     height: 100px;
@@ -47,6 +46,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 15vw;
+    width: 25vw;
     margin-right: 80px;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    font-size: 17px;
 }

@@ -6,7 +6,6 @@ const Dashboard = () => {
     return (
         <div className="dashboard">
             <HeaderDashboard />
-            <SearchDates />
         </div>
     );
 };

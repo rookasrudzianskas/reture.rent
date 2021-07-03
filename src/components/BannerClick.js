@@ -1,6 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
+import SearchDates from "./SearchDates";
+import "./styles/BannerClick.css";
 
 const BannerClick = () => {
 
@@ -40,8 +42,8 @@ const BannerClick = () => {
     return (
         <div className="bannerClick">
             <div>
-                <button type="button" onClick={handleOpen}>
-                    Open Modal
+                <button className="buttonsomething" type="button" onClick={handleOpen}>
+                    Select Dates
                 </button>
                 <Modal
                     open={open}
@@ -49,6 +51,7 @@ const BannerClick = () => {
                     aria-labelledby="simple-modal-title"
                     aria-describedby="simple-modal-description"
                 >
+                    <SearchDates />
                 </Modal>
             </div>
         </div>

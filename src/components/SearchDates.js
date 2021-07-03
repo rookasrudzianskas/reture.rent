@@ -27,6 +27,7 @@ const SearchDates = () => {
     }
 
     return (
+        <div className="backgroundSomething">
         <div className='search'>
 
             <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
@@ -34,7 +35,8 @@ const SearchDates = () => {
                 Number of guests <PeopleIcon />
             </h2>
             <input min={0} defaultValue={2} type="number" />
-            <Button onClick={() => history.push('/search')}>Search Airbnb</Button>
+            <Button onClick={() => history.push('/search')}>Search Renture</Button>
+        </div>
         </div>
     )
 }
