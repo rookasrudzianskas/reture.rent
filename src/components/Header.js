@@ -2,8 +2,16 @@ import React, {useEffect, useState} from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import "./styles/Header.css";
 import {Link} from "react-router-dom";
+import {useDispatch, useSelector} from "react-redux";
+import {selectUserEmail, selectUserName, selectUserPhoto, setUserLogOutState} from "../features/userSlice";
+import {auth} from "../firebase";
 
 const Header = () => {
+
+    const dispatch = useDispatch();
+    const userName = useSelector(selectUserName);
+    const userEmail = useSelector(selectUserEmail);
+    const userPhoto = useSelector(selectUserPhoto);
 
 
     const [show, handleShow] = useState(false);
@@ -21,6 +29,13 @@ const Header = () => {
 
         return () => window.removeEventListener("scroll", transitionNavBar);
     }, []);
+
+    const signOut = () => {
+        // this is sign out
+        auth.signOut().then(() => {
+            dispatch(setUserLogOutState())
+        }).catch((err) => alert(err.message));
+    }
 
     return (
         <div className={`header ${show && 'header__white'}`}>
@@ -44,18 +59,44 @@ const Header = () => {
 
                 <div className="header__rightNav">
 
+                    {userName && (
+                    <Link style={{textDecoration: 'none'}}  to="/logged-in/dashboard">
+                        <div className="header__signIn">
+                            Go to your dashboard
+                        </div>
+                    </Link>
 
+                    )}
+
+
+                    {!userName && (
                     <Link style={{textDecoration: 'none'}}  to="/login">
                         <div className="header__signIn">
                             Join Now
                         </div>
                     </Link>
+                    )}
 
-                    <Link style={{textDecoration: 'none'}} to="/signup">
+
+                    {!userName && (
+
+                        <Link style={{textDecoration: 'none'}} to="/signup">
                     <div className="header__joinNow">
                         Book a Demo (Coming Soon)
                     </div>
                     </Link>
+
+                    )}
+
+                    {userName && (
+
+                        <Link style={{textDecoration: 'none'}} to="/login">
+                            <div onClick={signOut} className="header__joinNow">
+                                Sign Out
+                            </div>
+                        </Link>
+
+                    )}
 
 
 

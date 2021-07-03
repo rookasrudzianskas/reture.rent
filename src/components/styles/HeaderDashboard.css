@@ -42,11 +42,30 @@
 
 }
 
+.signOutButton {
+    background-color: black;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-left: 10px;
+}
+
+
+.signOutButton:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.25s;
+}
+
 .header2__right {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 25vw;
+    width: 30vw;
     margin-right: 80px;
 }
 

@@ -4,10 +4,11 @@ import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Avatar } from "@material-ui/core";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 import BannerClick from "./BannerClick";
-import {selectUserEmail, selectUserName, selectUserPhoto} from "../features/userSlice";
+import {selectUserEmail, selectUserName, selectUserPhoto, setUserLogOutState} from "../features/userSlice";
 import {useDispatch, useSelector} from "react-redux";
+import {auth} from "../firebase";
 //
 const HeaderDashboard = () => {
 
@@ -15,6 +16,18 @@ const HeaderDashboard = () => {
     const userName = useSelector(selectUserName);
     const userEmail = useSelector(selectUserEmail);
     const userPhoto = useSelector(selectUserPhoto);
+
+    const history = useHistory();
+
+
+    const signout = () => {
+        // this is sign out
+        auth.signOut().then(() => {
+            dispatch(setUserLogOutState())
+        }).catch((err) => alert(err.message));
+
+    history.push("/login");
+    }
 
     return (
         // Header component
@@ -47,6 +60,9 @@ const HeaderDashboard = () => {
                 <LanguageIcon />
                 <ExpandMoreIcon />
                 <Avatar src={userPhoto ? userPhoto : "https://cdn5.vectorstock.com/i/1000x1000/56/69/portrait-young-man-character-smiling-person-vector-18725669.jpg"} />
+                {userName && (
+                <button onClick={signout} className="signOutButton">Sign Out</button>
+                )}
             </div>
 
 
