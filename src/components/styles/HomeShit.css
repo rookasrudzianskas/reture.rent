@@ -67,7 +67,7 @@
     text-align: center;
 }
 
-.empty__something > h3:last-child {
+.empty__something > .empty__h3 {
     font-weight: 200;
     font-size: 18px;
     margin-top: 10px;
@@ -81,4 +81,26 @@
 
 .empty {
     display: flex;
+}
+
+.empty__button {
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+
+}
+
+.empty__joinNow {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: black;
+    padding: 10px 26px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.2;
+
 }

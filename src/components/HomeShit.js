@@ -10,8 +10,15 @@ const HomeShit = () => {
                     <p>Digitize and accelerate lettings with our tenant engagement platform
                     </p>
 
-                    <h3>Renture plugs into your property management system to drive fully-digital, transparent and friction-free tenant engagement, through the entire lettings lifecycle.</h3>
+                    <h3 className="empty__h3">Renture plugs into your property management system to drive fully-digital, transparent and friction-free tenant engagement, through the entire lettings lifecycle.</h3>
+
+                    <div className="empty__button">
+                    <div className="empty__joinNow">
+                        Book Now
+                    </div>
+                    </div>
                 </div>
+
             </div>
             {/*<div className="banner">*/}
 
