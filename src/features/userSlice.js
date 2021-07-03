@@ -29,5 +29,6 @@ export const { setActiveUser, setUserLogOutState } = userSlice.actions;
 // if we need to get them, so we use these selectors
 export const selectUserName = state => state.user.userName;
 export const selectUserEmail = state => state.user.userEmail;
+export const selectUserPhoto = state => state.user.photoURL;
 
 export default userSlice.reducer;
