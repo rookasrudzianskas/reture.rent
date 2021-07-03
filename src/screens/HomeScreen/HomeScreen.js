@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import HomeShit from "../../components/HomeShit";
 import BodyImage from "../../components/BodyImage";
 import TrustedBy from "../../components/TrustedBy";
+import PMS from "../../components/PMS";
 
 const HomeScreen = () => {
     return (
@@ -11,6 +12,7 @@ const HomeScreen = () => {
             <HomeShit />
             <BodyImage />
             <TrustedBy />
+            <PMS />
         </div>
     );
 };
