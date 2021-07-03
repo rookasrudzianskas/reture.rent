@@ -24,7 +24,9 @@ const HeaderDashboard = () => {
 
             <div className="header2__center">
                 <input type="text"/>
+                <Link to="/search_results">
                 <SearchIcon />
+                </Link>
             </div>
 
             {/* the end of center section of header */}

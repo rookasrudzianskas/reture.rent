@@ -8,8 +8,8 @@ const SearchPage = () => {
     return (
         <div className="searchPage">
             <div className="searchPage__info">
-                <p>62 stays · 26 august to 30 august · 2 guest</p>
-                <h1>Stays nearby</h1>
+                <p>62 stays · 03 august to 03 July · 1 guest</p>
+                <h1>Stays nearby Vilnius Country</h1>
                 <Button variant="outlined">Cancellation Flexibility</Button>
                 <Button variant="outlined">Type of place</Button>
                 <Button variant="outlined">Price</Button>
