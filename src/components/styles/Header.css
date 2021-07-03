@@ -22,7 +22,7 @@
     height: 120px;
     width: 120px;
     align-items: center;
-    padding-right: 150px;
+    padding-right: 160px;
 }
 
 .header__logo >  img {
@@ -77,7 +77,7 @@
 .header__joinNow {
     background-color: black;
     color: white;
-    padding: 10px 26px;
+    padding: 12px 28px;
     border: 1px solid;
     border-radius: 10px;
     cursor: pointer;

@@ -25,10 +25,6 @@ const Header = () => {
 
                 <div className="header__rightNav">
 
-                    <div className="header__findStore">
-                        <LocationOnIcon className="header__locationIcon" />
-                        <span>Find partners</span>
-                    </div>
 
                     <div className="header__signIn">
                         Join Now

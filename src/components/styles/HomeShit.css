@@ -58,13 +58,14 @@
 
 .empty__something > p:first-child {
     font-weight: 400;
-    margin-top: 125px;
+    margin-top: 160px;
     font-size: 55px;
     /*margin-bottom: 100px;*/
     color: whitesmoke;
     /*color: rgb(16, 103, 59);*/
     max-width: 800px;
     text-align: center;
+    cursor: default;
 }
 
 .empty__something > .empty__h3 {
@@ -77,6 +78,8 @@
     margin-bottom: 30px;
     display: flex;
     align-items: center;
+    cursor: default;
+
 }
 
 .empty {
@@ -87,6 +90,8 @@
     display: flex;
     max-width: 800px;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -96,11 +101,16 @@
     text-align: center;
     margin-bottom: 30px;
     background-color: black;
-    padding: 10px 26px;
-    border: 1px solid;
+    color: whitesmoke;
+    padding: 12px 28px;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
     line-height: 1.2;
+}
 
+.empty__joinNow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.25s;
 }
