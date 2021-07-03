@@ -14,6 +14,7 @@ import SignUp from "./components/SignUp";
 import Dashboard from "./screens/LoggedInUserScreen/Dashboard/Dashboard";
 import SignInCard from "./components/SignInCard";
 import SignIn from "./components/SignIn";
+import SearchResultScreen from "./screens/SearchResultScreen/SearchResultScreen";
 
 function App() {
 
@@ -42,6 +43,10 @@ function App() {
 
                         <Route path="/signup">
                             <SignUp />
+                        </Route>
+
+                        <Route path="/search_results">
+                            <SearchResultScreen />
                         </Route>
 
                         <Route path="/logged-in/dashboard">

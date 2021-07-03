@@ -17,7 +17,7 @@ const Banner = () => {
                 <h5>
                     Plan a different kind of getaway to uncover the hidden gems near you.
                 </h5>
-                <Button variant="outlined" onClick={() => history.push('/search')}>Explore Nearby</Button>
+                <Button variant="outlined" onClick={() => history.push('/logged-in/dashboard')}>Explore Nearby</Button>
             </div>
         </div>
     )
