@@ -5,7 +5,7 @@
     z-index: 10;
     position: relative;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgba(255,255,255, 0.1);
 
 }
 
@@ -70,7 +70,6 @@
     background-color: white;
     color: black;
     padding: 10px 26px;
-    border: 1px solid;
     border-radius: 10px;
 }
 
@@ -78,7 +77,6 @@
     background-color: black;
     color: white;
     padding: 12px 28px;
-    border: 1px solid;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
