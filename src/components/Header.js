@@ -51,7 +51,7 @@ const Header = () => {
                         </div>
                     </Link>
 
-                    <Link style={{textDecoration: 'none'}} to="/login">
+                    <Link style={{textDecoration: 'none'}} to="/signup">
                     <div className="header__joinNow">
                         Book a Demo (Coming Soon)
                     </div>

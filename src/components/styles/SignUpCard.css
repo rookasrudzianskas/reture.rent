@@ -124,6 +124,7 @@
     border-radius: 20px 0 0 20px;
     margin: 0 auto;
     padding: 100px 180px;
+    cursor: pointer;
 }
 
 .loginCard__welcomingSide > .loginCard__image__real > img {

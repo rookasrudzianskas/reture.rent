@@ -1,17 +1,24 @@
 import React from 'react';
 import "./styles/SignUpCard.css";
 import {TextField} from "@material-ui/core";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 
 
-const LoginCard = () => {
+const SignUpCard = () => {
+
+
+    const history = useHistory();
+    const goHome = () => {
+        history.push("/");
+
+    }
     return (
         <div className="loginCard">
             <div className="loginCard__margin">
             <div className="loginCard__leftRight__section">
                 <div className="loginCard__welcomingSide">
                     <div className="loginCard__image__real">
-                        <img src="/images/logo.png" alt=""/>
+                        <img onClick={goHome} src="/images/logo.png" alt=""/>
                     <div className="welcomingSide__renture">
                         <p className="welcomingSide__renture__text">Welcome to Renture!</p>
                         <div className="">
@@ -50,4 +57,4 @@ const LoginCard = () => {
     );
 };
 
-export default LoginCard;
+export default SignUpCard;
