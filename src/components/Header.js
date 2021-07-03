@@ -1,6 +1,6 @@
 import React from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import "./styles.css";
+import "./styles/Header.css";
 
 const Header = () => {
     return (
