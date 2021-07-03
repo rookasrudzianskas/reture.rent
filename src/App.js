@@ -12,6 +12,8 @@ import LoginScreen from "./screens/LoginScreen/LoginScreen";
 import SignUpCard from "./components/SignUpCard";
 import SignUp from "./components/SignUp";
 import Dashboard from "./screens/LoggedInUserScreen/Dashboard/Dashboard";
+import SignInCard from "./components/SignInCard";
+import SignIn from "./components/SignIn";
 
 function App() {
 
@@ -31,6 +33,10 @@ function App() {
                         </Route>
 
                         <Route path="/login">
+                            <SignIn />
+                        </Route>
+
+                        <Route path="/loginpro">
                             <LoginScreen />
                         </Route>
 

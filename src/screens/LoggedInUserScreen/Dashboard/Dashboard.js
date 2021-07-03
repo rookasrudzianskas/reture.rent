@@ -3,6 +3,7 @@ import HeaderDashboard from "../../../components/Header-Dashboard";
 import SearchDates from "../../../components/SearchDates";
 import Banner from "../../../components/Banner";
 import YourTrips from "../../../components/YourTrips";
+import Footer from "../../../components/Footer";
 
 const Dashboard = () => {
     return (
@@ -10,6 +11,7 @@ const Dashboard = () => {
             <HeaderDashboard />
             <Banner />
             <YourTrips />
+            <Footer />
         </div>
     );
 };

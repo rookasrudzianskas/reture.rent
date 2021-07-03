@@ -36,7 +36,7 @@ function YourTrips() {
             {/* cards the first 3 rows to make the homes  */}
 
 
-            <h1>Maybe something in your country?</h1>
+            <h1>Maybe something in your country for the weekend?</h1>
 
             <div className='home__section'>
                 <Card
