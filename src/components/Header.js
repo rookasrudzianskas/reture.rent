@@ -1,10 +1,28 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import "./styles/Header.css";
 
 const Header = () => {
+
+
+    const [show, handleShow] = useState(false);
+
+    const transitionNavBar = () => {
+        if(window.scrollY > 100) {
+            handleShow(true);
+        } else {
+            handleShow(false);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', transitionNavBar);
+
+        return () => window.removeEventListener("scroll", transitionNavBar);
+    }, []);
+
     return (
-        <div className="header">
+        <div className={`header ${show && 'header__white'}`}>
             <div className="header__container">
                 <div className="header__leftNav">
                     <div className="header__nav">

@@ -1,5 +1,4 @@
 
-
 .empty {
     max-width: 1440px;
     margin: 0 auto;
@@ -10,7 +9,7 @@
 
 .empty__something > p:first-child {
     font-weight: 400;
-    margin-top: 160px;
+    margin-top: 300px;
     font-size: 55px;
     /*margin-bottom: 100px;*/
     color: whitesmoke;
