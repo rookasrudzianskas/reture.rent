@@ -62,20 +62,18 @@
     color: whitesmoke;
 }
 
-/*.smaller__width {*/
-/*    width: 500px;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
+.smaller__widths {
+    display: flex;
+    flex-direction: row;
+}
 
-.smaller__width > .Mui-focused {
+.smaller__widths > .Mui-focused {
     color: green;
 }
 
-/*.textfield {*/
-/*    margin-left: 35px;*/
-/*    margin-bottom: 10px;*/
-/*}*/
+.textfield {
+    margin-left: 35px;
+}
 
 .loginCard__image__real {
     width: 50%;

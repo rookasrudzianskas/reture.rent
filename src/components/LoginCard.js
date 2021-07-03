@@ -39,7 +39,7 @@ const LoginCard = () => {
                         <h1 className="loginCard__howToUnify">Login</h1>
                     </div>
 
-                    <div className="smaller__width">
+                    <div className="smaller__widths">
                         <TextField size="small" id="outlined-basic" label="Email" variant="outlined" />
                         <div className="textfield">
                             <TextField size="small"  id="outlined-basic" label="Password" variant="outlined" />
