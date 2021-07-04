@@ -134,8 +134,14 @@
     * {
         font-size: medium;
     }
+
+    .header__white {
+        background-color: rgba(255,255,255, 1);
+        transition: all 1s;
+
+    }
     .header {
-        height: 220px;
+        height: 215px;
         -webkit-box-shadow: 0px 0px 13px -8px #000000;
         box-shadow: 0px 0px 13px -8px #000000;
         z-index: 1000;
@@ -197,14 +203,56 @@
         font-weight: 600;
         line-height: 1.2;
     }
+
+    .header__joinNow:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+        border-color: rgba(0, 0, 0, 0.7);
+        transition: all 0.25s;
+    }
+
+    .header__signIn {
+        margin-right: 16px;
+    }
+
+    .header__signIn:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: all 0.25s;
+    }
+
+
+    .header__findStore {
+        margin-right: 40px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        color: #3A3A3C;
+    }
+
+    .header__findStore:hover {
+        color: #10673B;
+        transition: all 0.25s;
+        cursor: pointer;
+    }
+
+    .header__locationIcon > .MuiSvgIcon-root {
+        padding-right: 8px !important;
+        font-size: 24px !important;
+    }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     * {
         font-size: 15px;
     }
+
+    .header__white {
+        background-color: rgba(255,255,255, 1);
+        transition: all 1s;
+
+    }
+
     .header {
-        height: 220px;
+        height: 215px;
         -webkit-box-shadow: 0px 0px 13px -8px #000000;
         box-shadow: 0px 0px 13px -8px #000000;
         z-index: 1000;
@@ -249,7 +297,7 @@
         line-height: 1.2;
         background-color: white;
         color: black;
-        padding: 10px 26px;
+        padding: 7px 23px;
         border-radius: 10px;
         margin-top: -30px;
 
@@ -260,7 +308,7 @@
 
         background-color: black;
         color: white;
-        padding: 12px 28px;
+        padding: 8px 24px;
         border-radius: 10px;
         cursor: pointer;
         font-weight: 600;
