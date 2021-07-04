@@ -50,6 +50,7 @@ const Header = () => {
         <div className={`header ${show && 'header__white'}`}>
             <div className="header__container">
                 <div className="header__leftNav">
+                    {/*🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥*/}
                     <div className="header__nav">
                         <ul>
                             <li onClick={goRenture}>Why renture?</li>
@@ -57,15 +58,21 @@ const Header = () => {
                             <li onClick={gotoAboutUS}>About Us</li>
                         </ul>
                     </div>
+                    {/*🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥*/}
 
                 </div>
 
+                    {/*🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥*/}
                 <div className="header__center">
                     <div className="header__logo">
                         <img src="images/logo.png" alt=""/>
                     </div>
                 </div>
+                    {/*🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥*/}
 
+
+
+                    {/*🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥*/}
                 <div className="header__rightNav">
 
                     {userName && (
@@ -110,6 +117,7 @@ const Header = () => {
 
 
                 </div>
+                    {/*🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥*/}
             </div>
         </div>
     );
