@@ -9,6 +9,8 @@ const Dashboard = () => {
     return (
         <div className="dashboard">
             <HeaderDashboard />
+            {/*banner first does not work*/}
+            {/*<First_Banner />*/}
             <Banner />
             <YourTrips />
             <Footer />
