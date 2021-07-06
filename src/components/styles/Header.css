@@ -142,13 +142,6 @@
     }
     .header {
         height: 215px;
-        -webkit-box-shadow: 0px 0px 13px -8px #000000;
-        box-shadow: 0px 0px 13px -8px #000000;
-        z-index: 1000;
-        margin: 0 auto;
-        background-color: rgba(255,255,255, 0.1);
-        position: fixed;
-        top: 0;
         padding: 20px;
         width: 100%;
     }
@@ -248,7 +241,6 @@
     .header__white {
         background-color: rgba(255,255,255, 1);
         transition: all 1s;
-
     }
 
     .header {
