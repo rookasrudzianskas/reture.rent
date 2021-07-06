@@ -819,7 +819,7 @@ const FirstBanner = () => {
     return (
         <div className="firstBanner">
             <div id="app">
-            {/*    this shit does not work at all.*/}
+            {/*maybe works out*/}
             </div>
         </div>
     );
