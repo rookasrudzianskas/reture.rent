@@ -81,7 +81,6 @@ function App() {
                             <HomeScreen />
                         </Route>
                         </Route>
-                        </Route>
 
                     </Switch>
 
