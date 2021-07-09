@@ -80,7 +80,6 @@ function App() {
                         <Route path="/">
                             <HomeScreen />
                         </Route>
-                        </Route>
 
                     </Switch>
 
