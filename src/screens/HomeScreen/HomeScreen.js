@@ -8,13 +8,14 @@ import RentureApp from "../../components/RentureApp";
 import RentureOS from "../../components/RentureOS";
 import Home from "../../components/Home";
 import Footer from "../../components/Footer";
+import BodyImageComponent from "../../components/BodyImageComponent";
 
 const HomeScreen = () => {
     return (
         <div className="homescreen">
             <Header />
             <HomeShit />
-            <BodyImage />
+            <BodyImageComponent />
             <TrustedBy />
             <PMS />
             <RentureApp />
