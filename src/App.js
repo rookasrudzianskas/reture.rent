@@ -32,8 +32,8 @@ function App() {
 
     return (
     <div className="app">
-        <div class="container-fluid">
-            <div class="background">
+        <div className="container-fluid">
+            <div className="background">
                 <Router>
                     <Switch>
 
