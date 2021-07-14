@@ -73,17 +73,21 @@ function App() {
                                 ) }
                         </Route>
 
-                        {userName ? (
-                            <Route path={`/logged-in/user&userName=${(userName?.replace(' ', ''))?.toLowerCase()}/dashboard`}>
-                                {userName && (
-                                <Dashboard />
-                                )
-                                    }
-                            <Route path={`/logged-in/user/dashboard`}>
-                                <SignIn />
+                            {userName ? (
+                                    <Route path={`/logged-in/user&userName=${(userName?.replace(' ', ''))?.toLowerCase()}/dashboard`}>
+                                        {userName ? (
+                                            <Dashboard/>
+                                        ) : (
+                                            // <Route path={`/logged-in/user/dashboard`}>
+                                            <SignIn/>
+                                        )
+                                        }
+                                    </Route>
+                                    ) : (
+                                    <Route path={`/logged-in/user/dashboard`}>
+                                    </Route>
                                     )
                                 }
-                        </Route>
 
                         <Route path="/">
                             <HomeScreen />
