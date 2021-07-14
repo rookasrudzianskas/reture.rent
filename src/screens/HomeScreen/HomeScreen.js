@@ -21,7 +21,7 @@ const HomeScreen = () => {
             <RentureApp />
             <RentureOS />
             <Home />
-            <Footer />
+            {/*<Footer />*/}
         </div>
     );
 };
