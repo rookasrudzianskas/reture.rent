@@ -30,8 +30,7 @@ function App() {
 
     console.log(userName);
 
-    const userNameLowercased = (userName.replace(' ', '')).toLowerCase();
-    console.log(userNameLowercased);
+    const userNameLowercased = (userName?.replace(' ', ''))?.toLowerCase();
 
 
 
@@ -74,7 +73,7 @@ function App() {
                                 ) }
                         </Route>
 
-                        <Route path={`/logged-in/user/dashboard`}>
+                        <Route path={`/logged-in/user&userName=${userNameLowercased}/dashboard`}>
                             {userName ? (
                             <Dashboard />
                             ) : (
