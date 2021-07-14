@@ -30,7 +30,7 @@ function App() {
 
     console.log(userName);
 
-    const userNameLowercased = (userName.replace(' ', '')).toLowerCase;
+    const userNameLowercased = (userName.replace(' ', '')).toLowerCase();
     console.log(userNameLowercased);
 
 
