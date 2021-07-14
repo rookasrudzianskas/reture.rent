@@ -80,7 +80,6 @@ function App() {
                                         ) : (
                                             // <Route path={`/logged-in/user/dashboard`}>
                                             <SignIn/>
-                                            <SignIn/>
                                         )
                                         }
                                     </Route>
