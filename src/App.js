@@ -73,12 +73,16 @@ function App() {
                                 ) }
                         </Route>
 
-                        <Route path={`/logged-in/user&userName=${userNameLowercased}/dashboard`}>
-                            {userName ? (
-                            <Dashboard />
-                            ) : (
+                        {userName ? (
+                            <Route path={`/logged-in/user&userName=${userNameLowercased}/dashboard`}>
+                                {userName && (
+                                <Dashboard />
+                                )
+                                    }
+                            <Route path={`/logged-in/user/dashboard`}>
                                 <SignIn />
-                            )}
+                                    )
+                                }
                         </Route>
 
                         <Route path="/">
