@@ -12,6 +12,8 @@
     width: 1000px;
     height: 700px;
     margin-top: 65px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
 
 /*.bodyImage__image > img {*/
