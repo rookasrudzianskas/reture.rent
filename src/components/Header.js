@@ -76,7 +76,7 @@ const Header = () => {
                 <div className="header__rightNav">
 
                     {userName && (
-                    <Link style={{textDecoration: 'none'}}  to="/logged-in/dashboard">
+                    <Link style={{textDecoration: 'none'}}  to="/logged-in/user/dashboard">
                         <div className="header__signIn">
                             Go to your dashboard
                         </div>

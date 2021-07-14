@@ -28,6 +28,8 @@ function App() {
     const userEmail = useSelector(selectUserEmail);
     const userPhoto = useSelector(selectUserPhoto);
 
+    console.log(userName);
+
 
 
     return (
