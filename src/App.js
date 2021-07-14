@@ -77,7 +77,6 @@ function App() {
                                     <Route path={`/logged-in/user&userName=${(userName?.replace(' ', ''))?.toLowerCase()}/dashboard`}>
                                         {userName ? (
                                             <Dashboard/>
-                                            <Dashboard/>
                                         ) : (
                                             <Route path={`/logged-in/user/dashboard`}>
                                             <SignIn/>
