@@ -87,6 +87,7 @@ function App() {
                                     <Route path={`/logged-in/user/dashboard`}>
                                             <Dashboard/>
                                             <Dashboard/>
+                                            <Dashboard/>
                                     </Route>
                                     )
                                 }
