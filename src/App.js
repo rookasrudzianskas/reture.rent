@@ -88,7 +88,6 @@ function App() {
                                             <Dashboard/>
                                             <Dashboard/>
                                             <Dashboard/>
-                                            <Dashboard/>
                                     </Route>
                                     )
                                 }
